@@ -1,0 +1,31 @@
+﻿<!doctype html>
+<html>
+<head>
+  <meta type="text/javascript" charset="utf-8">
+  <title>SkyWind slot</title>      
+  <script src="https://code.createjs.com/1.0.0/soundjs.min.js" defer ></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.5.1/pixi.min.js" defer ></script>  
+  <script src="scripts/Collection.js" defer ></script>	
+  <script src="scripts/Graph.js" defer ></script>
+  <script src="scripts/Sounds.js" defer ></script>	
+  <script src="scripts/UI.js" defer ></script>
+  <script src="scripts/states/States.js" defer ></script>	
+  <script src="scripts/states/BaseState.js" defer ></script>	
+  <script src="scripts/states/StateNo.js" defer ></script>	
+  <script src="scripts/states/StateStartCycle.js" defer ></script>	
+  <script src="scripts/states/StateLoop.js" defer ></script>	
+  <script src="scripts/states/StateStopCycle.js" defer ></script>	
+  <script src="scripts/Main.js" defer ></script>
+</head>
+
+<script>
+   function loadPage() 
+   {    
+		var play = new Main();
+		play.gameLoop();
+   }
+ </script>
+  
+<body onload="loadPage()">
+</body>
+</html>
